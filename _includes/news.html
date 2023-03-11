@@ -1,0 +1,17 @@
+<hr>
+<p style="text-align:center;" class="title">Πρόσφατες Ανακοινώσεις</p>
+<section id="announcements" class="section is-medium" style="background-color:#3e8ed0; text-align:center;">
+  
+{% for post in site.posts limit:5 %}
+    
+
+<a href="{{ post.url }}"> <p style="color:white;" class="title">{{ post.title }}</p></a>
+<h6 style="color:white;" class="subtitle is-6">Ημερομηνία Δημοσίευσης: {{post.date | date: '%d/%m/%Y'}}</h6>
+      {% endfor %}  
+    <a href="news/" ><button class="button is-rounded">Όλες οι Ανακοινώσεις</button></a>
+
+
+
+</section>
+
+

@@ -1,0 +1,46 @@
+<section id="topheader" class="hero is-large is-info">
+  <div class="hero-body">
+  <div class="container has-text-centered">
+    <p class="title">
+      ΙΕΚ ΔΥΠΑ ΚΟΜΟΤΗΝΗΣ
+    </p>
+	<hr>
+    <p class="subtitle">
+     Στην Δημόσια Υπηρεσία Απασχόλησης (Δ.ΥΠ.Α.) (πρώην ΟΑΕΔ) λειτουργούν 31 ΙΕΚ σε όλη την Ελλάδα, με 47 σύγχρονες ειδικότητες, όπου φοιτούν 3.800 σπουδαστές.</p>
+	<p class="subtitle"> Ξεκίνα τις σπουδές σου στο ΙΕΚ μας! </p>
+    </p>
+	<br>
+	<br>
+	<br>
+	<a href="#about"><span class="icon">
+<i class="fa regular fa-arrow-down fa-4x"></i></span></a>
+  </div>
+  </div>
+</section>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+
+});
+
+
+</script>

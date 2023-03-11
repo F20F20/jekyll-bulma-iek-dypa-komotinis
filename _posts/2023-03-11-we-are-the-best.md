@@ -1,0 +1,7 @@
+---
+title: we are the best
+layout: newslayout
+permalink: /news/:title/
+---
+
+hihihihihihiihihihih
