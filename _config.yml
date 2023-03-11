@@ -5,10 +5,7 @@ baseurl: /jekyll-bulma-iek-dypa-komotinis
 url: http://F20F20.github.io
 
 
-plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-sitemap
+
   
   
   
